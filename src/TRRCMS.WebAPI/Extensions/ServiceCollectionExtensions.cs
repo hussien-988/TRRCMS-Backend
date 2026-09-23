@@ -68,7 +68,7 @@ public static class ServiceCollectionExtensions
         services.AddScoped<IPersonPropertyRelationRepository, PersonPropertyRelationRepository>();
         services.AddScoped<IEvidenceRepository, EvidenceRepository>();
         services.AddScoped<IEvidenceRelationRepository, EvidenceRelationRepository>();
-services.AddScoped<IClaimRepository, ClaimRepository>();
+        services.AddScoped<IClaimRepository, ClaimRepository>();
         services.AddScoped<ICaseRepository, CaseRepository>();
         services.AddScoped<IIdentificationDocumentRepository, IdentificationDocumentRepository>();
         services.AddScoped<IUserRepository, UserRepository>();
